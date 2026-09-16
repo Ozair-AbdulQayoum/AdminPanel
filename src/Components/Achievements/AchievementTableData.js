@@ -1,0 +1,42 @@
+export const achievementTableData = [
+  {
+    id: 1,
+    title: "Land Cleared of Explosive Hazards",
+    value: "1.98M",
+    category: "Mine Action",
+    year: "2026",
+    status: "Published",
+  },
+  {
+    id: 2,
+    title: "Communities Made Safer",
+    value: "755",
+    category: "Community Safety",
+    year: "2026",
+    status: "Published",
+  },
+  {
+    id: 3,
+    title: "Mine Risk Education Sessions",
+    value: "1,250+",
+    category: "Education",
+    year: "2026",
+    status: "Published",
+  },
+  {
+    id: 4,
+    title: "People Reached",
+    value: "85,000+",
+    category: "Community Impact",
+    year: "2026",
+    status: "Published",
+  },
+  {
+    id: 5,
+    title: "Provinces Supported",
+    value: "18",
+    category: "Operations",
+    year: "2026",
+    status: "Published",
+  },
+];

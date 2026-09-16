@@ -1,0 +1,42 @@
+export const projectTableData = [
+  {
+    id: 1,
+    name: "Mine Action Program",
+    province: "Kabul",
+    donor: "UNMAS",
+    startDate: "Jan 2026",
+    status: "Active",
+  },
+  {
+    id: 2,
+    name: "Community Safety Project",
+    province: "Herat",
+    donor: "UNDP",
+    startDate: "Feb 2026",
+    status: "Active",
+  },
+  {
+    id: 3,
+    name: "Explosive Ordnance Clearance",
+    province: "Kandahar",
+    donor: "EU",
+    startDate: "Mar 2025",
+    status: "Completed",
+  },
+  {
+    id: 4,
+    name: "Risk Education Program",
+    province: "Balkh",
+    donor: "UNICEF",
+    startDate: "Apr 2026",
+    status: "Planning",
+  },
+  {
+    id: 5,
+    name: "Land Release Project",
+    province: "Nangarhar",
+    donor: "World Bank",
+    startDate: "May 2026",
+    status: "Active",
+  },
+];
