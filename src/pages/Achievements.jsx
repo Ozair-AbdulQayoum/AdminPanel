@@ -1,5 +1,4 @@
-import AchievementTable from "../components/Achievements/AchievementTable";
-
+import AchievementTable from "../Components/Achievements/AchievementTable";
 export default function Achievements() {
   return (
     <div className="space-y-6">

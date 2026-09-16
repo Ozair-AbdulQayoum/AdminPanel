@@ -1,6 +1,6 @@
-import LoginHeader from "../components/Login/LoginHeader";
-import LoginForm from "../components/Login/LoginForm";
-import LoginFooter from "../components/Login/LoginFooter";
+import LoginHeader from "../Components/Login/LoginHeader";
+import LoginForm from "../Components/Login/LoginForm";
+import LoginFooter from "../Components/Login/LoginFooter";
 
 export default function Login() {
   return (

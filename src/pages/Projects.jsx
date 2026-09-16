@@ -1,5 +1,4 @@
-import ProjectTable from "../components/Projects/ProjectTable";
-
+import ProjectTable from "../Components/Projects/ProjectTable";
 export default function Projects() {
   return (
     <div className="space-y-6">

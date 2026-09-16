@@ -1,8 +1,8 @@
-import DashboardWelcome from "../components/Dashboard/DashboardWelcome";
-import StatCard from "../components/Cards/StatCard";
-import RecentProjects from "../components/Projects/RecentProjects";
-import RecentActivity from "../components/Activity/RecentActivity";
-import QuickActions from "../components/QuickActions/QuickActions";
+import DashboardWelcome from "../Components/Dashboard/DashboardWelcome";
+import StatCard from "../Components/Cards/StatCard";
+import RecentProjects from "../Components/Projects/RecentProjects";
+import RecentActivity from "../Components/Activity/RecentActivity";
+import QuickActions from "../Components/QuickActions/QuickActions";
 
 export default function Dashboard() {
   return (
