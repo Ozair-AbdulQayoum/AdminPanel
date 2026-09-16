@@ -5,8 +5,8 @@ import Dashboard from "./pages/Dashboard";
 import Projects from "./pages/Projects";
 import Achievements from "./pages/Achievements";
 
-import Sidebar from "./components/Sidebar/Sidebar";
-import AdminNavbar from "./components/Navbar/AdminNavbar";
+import Sidebar from "./Components/Sidebar/Sidebar";
+import AdminNavbar from "./Components/Navbar/AdminNavbar";
 
 function DashboardLayout() {
   return (
