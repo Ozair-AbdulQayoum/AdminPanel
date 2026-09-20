@@ -1,6 +1,6 @@
 import {
   FaFolderOpen,
-  FaFileAlt,
+  FaNewspaper,
   FaUsers,
   FaHandHoldingHeart,
 } from "react-icons/fa";
@@ -9,7 +9,7 @@ import { statCardData } from "./StatCardData";
 
 const icons = {
   projects: FaFolderOpen,
-  reports: FaFileAlt,
+  latest: FaNewspaper,
   staff: FaUsers,
   donors: FaHandHoldingHeart,
 };

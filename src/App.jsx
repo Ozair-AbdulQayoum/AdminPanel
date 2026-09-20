@@ -4,6 +4,9 @@ import Login from "./pages/Login";
 import Dashboard from "./pages/Dashboard";
 import Projects from "./pages/Projects";
 import Achievements from "./pages/Achievements";
+import Staff from "./pages/Staff";
+import Donors from "./pages/Donors";
+import News from "./pages/News";
 
 import Sidebar from "./Components/Sidebar/Sidebar";
 import AdminNavbar from "./Components/Navbar/AdminNavbar";
@@ -25,6 +28,9 @@ function DashboardLayout() {
             <Route path="/" element={<Dashboard />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/achievements" element={<Achievements />} />
+            <Route path="/staff" element={<Staff />} />
+            <Route path="/donors" element={<Donors />} />
+            <Route path="/news" element={<News />} />
           </Routes>
         </div>
       </main>

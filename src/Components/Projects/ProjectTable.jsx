@@ -1,7 +1,12 @@
+import { useState } from "react";
 import { FaEllipsisV } from "react-icons/fa";
+
 import { projectTableData } from "./ProjectTableData";
+import AddProjectForm from "./AddProjectForm";
 
 export default function ProjectTable() {
+  const [showForm, setShowForm] = useState(false);
+
   return (
     <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
       {/* Table Header */}
@@ -16,6 +21,7 @@ export default function ProjectTable() {
 
         <button
           type="button"
+          onClick={() => setShowForm(true)}
           className="rounded-xl bg-emerald-700 px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-emerald-800"
         >
           + Add Project
@@ -102,6 +108,9 @@ export default function ProjectTable() {
           </tbody>
         </table>
       </div>
+
+      {/* Add Project Modal */}
+      {showForm && <AddProjectForm onClose={() => setShowForm(false)} />}
     </div>
   );
 }
