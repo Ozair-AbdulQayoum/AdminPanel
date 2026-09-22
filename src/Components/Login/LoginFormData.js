@@ -9,7 +9,19 @@ export const loginFormData = {
     placeholder: "Enter your password",
   },
 
-  rememberMe: "Remember me",
-  forgotPassword: "Forgot password?",
-  submitButton: "Sign In",
+  remember: {
+    label: "Remember me",
+  },
+
+  forgot: {
+    label: "Forgot password?",
+  },
+
+  button: {
+    label: "Sign In",
+  },
+
+  security: {
+    text: "Secure access for authorized DAFA administrators.",
+  },
 };
