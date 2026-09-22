@@ -7,6 +7,7 @@ import {
   FaHandHoldingHeart,
   FaNewspaper,
   FaCog,
+  FaMapMarkedAlt,
 } from "react-icons/fa";
 
 import { sidebarData } from "./SidebarData";
@@ -18,6 +19,7 @@ const icons = {
   staff: FaUsers,
   donors: FaHandHoldingHeart,
   news: FaNewspaper,
+  coverage: FaMapMarkedAlt,
   settings: FaCog,
 };
 

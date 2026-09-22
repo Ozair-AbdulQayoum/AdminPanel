@@ -21,6 +21,11 @@ export const sidebarData = {
       path: "/dashboard/achievements",
     },
     {
+      label: "Coverage Area",
+      icon: "coverage",
+      path: "/dashboard/coverage",
+    },
+    {
       label: "Staff",
       icon: "staff",
       path: "/dashboard/staff",
